@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1731765679 source:c:\users\admin\documents\ttud\projecthdh_truongphamngockhanh_20225641\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<cstdlib>
+	<ctime>
+	<cmath>
+
