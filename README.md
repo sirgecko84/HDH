@@ -19,5 +19,18 @@
 
 6. **C-LOOK (Circular LOOK)**  
    Thuật toán C-LOOK là phiên bản cải tiến của LOOK, tương tự như C-SCAN. Sau khi đến yêu cầu cuối cùng, đầu đọc quay lại yêu cầu đầu tiên và tiếp tục từ đó.
+## Đề bài
+
+Chương trình triển khai các thuật toán lập lịch đĩa cho một hệ thống với các đặc điểm sau:
+
+- **Đầu vào**:
+  - Chương trình nhận vào **vị trí ban đầu của đầu đọc đĩa** (initial head position) thông qua tham số dòng lệnh. Vị trí này phải nằm trong khoảng từ **0 đến 4999** (tương ứng với các cylinder trong đĩa).
+  - Chương trình **tự động sinh ra 1000 yêu cầu** ngẫu nhiên. Mỗi yêu cầu là một cylinder (một giá trị nguyên) trong phạm vi từ 0 đến 4999.
+
+- **Dãy yêu cầu**:
+  - Chương trình sử dụng hàm **`generateRequests`** để sinh ra một dãy yêu cầu ngẫu nhiên. Mỗi yêu cầu được tạo ngẫu nhiên trong phạm vi từ 0 đến 4999 và sau đó lưu vào một mảng.
+  
+- **Mục tiêu**:
+  - Tính toán và in ra **tổng quãng đường di chuyển** của đầu đọc đĩa khi sử dụng từng thuật toán lập lịch (FCFS, SSTF, SCAN, C-SCAN, LOOK, C-LOOK).
 
 
